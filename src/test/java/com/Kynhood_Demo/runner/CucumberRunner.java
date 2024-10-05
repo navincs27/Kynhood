@@ -26,6 +26,9 @@ public class CucumberRunner extends BaseClass{
 	@BeforeClass
 	public static void user_enter_browser(){
 		browserLaunch("chrome");
+		
+		
+		
 	}
 	@AfterClass
 	public static void closeBrowser() {
